@@ -1,5 +1,7 @@
 source 'http://production.s3.rubygems.org'
 
+gem "ransack", github: "activerecord-hackery/ransack", branch: "rails-4.1"
+
 group :test do
   gem 'capybara',                 '~> 2.1'
   gem 'selenium-webdriver',       '~> 2.39'
